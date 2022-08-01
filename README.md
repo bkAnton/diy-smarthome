@@ -5,5 +5,13 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 ## Items needed:
 1.[ESP32](https://www.amazon.de/gp/product/B071P98VTG/ref=ox_sc_act_image_1?smid=A1X7QLRQH87QA3&psc=1) or [ESP8266](https://www.amazon.de/AZDelivery-NodeMCU-ESP8266-ESP-12E-Development/dp/B074Q2WM1Y/ref=sr_1_3?keywords=esp8266&qid=1659355276&s=industrial&sprefix=esp%2Cindustrial%2C109&sr=1-3) for the Network Interface
+
 2.[Attiny84](https://www.reichelt.de/8-bit-attiny-avr-risc-mikrocontroller-8-kb-10-mhz-dip-14-attiny-84v-10-pu-p69889.html?CCOUNTRY=445&LANGUAGE=de&trstct=pos_2&nbc=1&&r=1) for the RGB-strip controller
-[Attiny85](https://www.reichelt.de/8-bit-attiny-avr-risc-mikrocontroller-8-kb-20-mhz-dip-8-attiny-85-20-pu-p69299.html?&trstct=pos_0&nbc=1) for Thermometer
+
+3.[Attiny85](https://www.reichelt.de/8-bit-attiny-avr-risc-mikrocontroller-8-kb-20-mhz-dip-8-attiny-85-20-pu-p69299.html?&trstct=pos_0&nbc=1) for Thermometer
+
+4.[Thermometer module](https://www.amazon.de/BME280-Feuchte-Temperatur-Atmosph%C3%A4rendruck-Sensor-Modul-mit-IIC-Arduino/dp/B09CYXS3GX/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=arduino+bme280&qid=1659355731&sr=8-4) (which you use doesn't matter)
+
+5.[Buttons](https://www.amazon.de/gp/product/B07Q1BXV7T/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) for the Buttonmatrix
+
+6.[433 mHz rf-module](https://www.amazon.de/gp/product/B07DJYK29J/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
