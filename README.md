@@ -16,7 +16,7 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 6.[433 mHz rf-module](https://www.amazon.de/gp/product/B07DJYK29J/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) for the communication between all the devices
 
-7.An antenna to improve the Signal between the rf modules. I used this [tinned copper wire](https://www.amazon.de/gp/product/B0043DXICC/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) and I cut it to 17cm. 
+7.An antenna to improve the Signal between the rf modules. I used [tinned copper wire](https://www.amazon.de/gp/product/B0043DXICC/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1) and I cut it to 17cm. 
 
 8.[Mosfets](https://www.amazon.de/BOJACK-IRFZ44N-IRFZ44NPBF-Gleichrichter-Transistoren/dp/B0831NZHNW/ref=sr_1_7?keywords=irlz44n&qid=1659356180&sprefix=irl%2Caps%2C133&sr=8-7) to controll the RGB-Strip
 
@@ -24,4 +24,6 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 10.[wireless socket](https://www.amazon.de/Brennenstuhl-Comfort-Line-Funksteckdosen-Set-Funkschalt-Set-Ber%C3%BChrungsschutz/dp/B099653MQ4/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G57BLJFAH9L8&keywords=funksteckdose&qid=1659357393&sprefix=funksteckdose%2Caps%2C183&sr=8-5) like this, it should have a 433 mHz receiver
 
-Most of these things can be replaced by others similar.
+11.[Attiny Programmer](https://www.amazon.de/ISP-Programmer-Adapter-STK500-ATmega-ATtiny/dp/B00IYNAXUC/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2QPKQTL35M0SM&keywords=attiny+programmer&qid=1659366848&sprefix=attiny+programme%2Caps%2C140&sr=8-4) (actually unnecessary, I use a Arduino as Programmer)
+
+
