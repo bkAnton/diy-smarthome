@@ -41,5 +41,7 @@ the project: A button device which can send informations with a 433mHz rf-module
  | Pin 13  (SCK)      | Pin 9    | Pin 7   |
  |                    |![84](https://user-images.githubusercontent.com/61635769/182199557-12fc47d7-49d0-46ef-a550-450a76571ac4.png)  | ![85](https://user-images.githubusercontent.com/61635769/182199570-e94b87a4-6133-40f2-8af1-4a560d968bce.png)
  
- 
+ 3. past "https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json" to Additional Board Managers URLs
+ 4. Select Tools--> Board-->Boards Manager ans Install Attiny package by David. A Mellis
+ 5. 
  
