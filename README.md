@@ -33,7 +33,8 @@ the project: A button device which can send informations with a 433mHz rf-module
 2. Select Tools --> Board --> Boards Manager and install Attiny package by David. A Mellis
 3. Upload File --> Example --> ArduinoISP to Arduino
 4. 10µF capacitor between GND and RESET on the Arduino   
-5. connect the following pins from the arduino to one of the attinys              
+5. connect the following pins from the arduino to one of the attinys (I soldered a shield for the arduino uno because it's not always that complicated) 
+
  
  | Arduino            | Attiny84 | Attiny85| 
  | -------------------|----------|---------|
@@ -44,5 +45,16 @@ the project: A button device which can send informations with a 433mHz rf-module
  | Pin 13  (SCK)      | Pin 9    | Pin 7   |
  |                    |![84](https://user-images.githubusercontent.com/61635769/182199557-12fc47d7-49d0-46ef-a550-450a76571ac4.png)  | ![85](https://user-images.githubusercontent.com/61635769/182199570-e94b87a4-6133-40f2-8af1-4a560d968bce.png)
  
+ optional on the Arduino can you add a few LEDs
+ |information  | Pin   |
+ |-------------|-------|
+ | Heatbeat    | Pin 9 |
+ | Error       | Pin 8 |
+ | Programming | Pin 7 |
+ 
+
+ 6. select Tools --> Processor --> Attiny84/Attiny85 | Tools --> Clock --> Internal 8MHz | Tools --> Programmer --> Arduino as ISP
+ 7. and finally Tools --> Burn Bootloader
+ now you can upload any programm to the Attiny
 
  
