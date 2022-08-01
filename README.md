@@ -24,6 +24,13 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 10. [wireless socket](https://www.amazon.de/Brennenstuhl-Comfort-Line-Funksteckdosen-Set-Funkschalt-Set-Ber%C3%BChrungsschutz/dp/B099653MQ4/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G57BLJFAH9L8&keywords=funksteckdose&qid=1659357393&sprefix=funksteckdose%2Caps%2C183&sr=8-5) like this, it should have a 433 mHz receiver
 
-11. [Attiny Programmer](https://www.amazon.de/ISP-Programmer-Adapter-STK500-ATmega-ATtiny/dp/B00IYNAXUC/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2QPKQTL35M0SM&keywords=attiny+programmer&qid=1659366848&sprefix=attiny+programme%2Caps%2C140&sr=8-4) (actually unnecessary, I use a Arduino as Programmer)
+11. [Attiny Programmer](https://www.amazon.de/ISP-Programmer-Adapter-STK500-ATmega-ATtiny/dp/B00IYNAXUC/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2QPKQTL35M0SM&keywords=attiny+programmer&qid=1659366848&sprefix=attiny+programme%2Caps%2C140&sr=8-4) (actually unnecessary, I use a Arduino as ISP)
 
 
+## How to Programm a Attiny with the Arduino
+To programm the Attiny there must be a 10µF capacitor between GND and RESET on the Arduino.
+| Arduino                                             | Attiny        | 
+| -------------                                       |:-------------:| 
+| 10uF capacitor between GND and RESET| right-aligned | 
+| col 2 is                                            | centered      | 
+| zebra stripes                                       | are neat      |   
