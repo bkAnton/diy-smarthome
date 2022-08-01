@@ -24,4 +24,4 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 10.[wireless socket](https://www.amazon.de/Brennenstuhl-Comfort-Line-Funksteckdosen-Set-Funkschalt-Set-Ber%C3%BChrungsschutz/dp/B099653MQ4/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3G57BLJFAH9L8&keywords=funksteckdose&qid=1659357393&sprefix=funksteckdose%2Caps%2C183&sr=8-5) like this, it should have a 433 mHz receiver
 
-
+Most of these things can be replaced by others similar.
