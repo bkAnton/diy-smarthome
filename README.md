@@ -29,8 +29,9 @@ the project: A button device which can send informations with a 433mHz rf-module
 
 ## How to Programm a Attiny with the Arduino
 To programm the Attiny there must be a 10µF capacitor between GND and RESET on the Arduino.
-| Arduino                                             | Attiny        | 
+| Arduino                                             | Attiny84      | 
 | -------------                                       |:-------------:| 
-| 10uF capacitor between GND and RESET| right-aligned | 
-| col 2 is                                            | centered      | 
-| zebra stripes                                       | are neat      |   
+| 10uF capacitor between GND and RESET                |               | 
+| 5V                                                  | Pin 1         | 
+| Pin 10                                       | Pin 4      |   
+| Pin 11 | Pin 7
