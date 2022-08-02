@@ -1,6 +1,8 @@
-# A Button Matrix to Control the PC and to other things
+# A Button Matrix to Control the PC 
+## A button Matrix like a Streamdeck that is connectet to PC and can turn on/off other devices at home like a small Smarthome.
 
-the project: A button device which can send informations with a 433mHz rf-module to a ESP32. This ESP sends commands over the network to a pc where it changes the volume etc. The ESP is an Interface for many other things like a thermostat or anything else. Otherwise the buttons can enable / disable a rgb-strip which is controlled by a self-designed controllrl and they can control wirreles sockets. All these parts have a 3d printed case which gives the whole thing a nice look.
+## The Project:
+A button device which can send informations with a 433mHz rf-module to a ESP32. This ESP sends commands over the network to a pc where it changes the volume etc. The ESP is an Interface for many other things like a thermostat or anything else. Otherwise the buttons can enable / disable a rgb-strip which is controlled by a self-designed controllrl and they can control wirreles sockets. All these parts have a 3d printed case which gives the whole thing a nice look.
 
 
 ## Items needed:
@@ -58,5 +60,7 @@ the project: A button device which can send informations with a 433mHz rf-module
  6. select Tools --> Processor --> Attiny84/Attiny85 | Tools --> Clock --> Internal 8MHz | Tools --> Programmer --> Arduino as ISP
  7. and finally Tools --> Burn Bootloader
  now you can upload any programm to the Attiny
-
+this helps to keep the overview
  
+## Find a Bug?
+If you find an issue or you would like to submit an improvement, please submit it in the issue tab above. If you want to correct a Bug directly or write an improvement, you can make a pull request. Before you do an pull request, please create an issue.
