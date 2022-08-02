@@ -62,5 +62,10 @@ A button device which can send informations with a 433mHz rf-module to a ESP32. 
  now you can upload any programm to the Attiny
 this helps to keep the overview
  
+ 
 ## Find a Bug?
 If you find an issue or you would like to submit an improvement, please submit it in the issue tab above. If you want to correct a Bug directly or write an improvement, you can make a pull request. Before you do an pull request, please create an issue.
+
+
+## The future:
+This project is still in the early stages of development. In the future it would be a consideration to code an app for the smartphone or create a website, that can be used to controll the LEDs, wireless sockets or to show all the informations that you can also see at the computer. 
